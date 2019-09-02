@@ -1,6 +1,7 @@
 {
   "env": {
     "browser": true,
+    "jest/globals": true,
     "node": true
   },
   "parser": "babel-eslint",
@@ -12,9 +13,10 @@
     "plugin:prettier/recommended",
     "prettier/flowtype",
     "prettier/react",
-    "prettier/standard"
+    "prettier/standard",
+    "plugin:jest/all"
   ],
-  "plugins": ["prettier", "react", "jsx-a11y"],
+  "plugins": ["prettier", "react", "jsx-a11y", "jest"],
   "settings": {
     "react": {
       "createClass": "createReactClass",

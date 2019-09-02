@@ -1,3 +1,4 @@
+/* eslint-disable */
 module.exports = {
   webpack: (config, { dev }) => {
     if (dev) {
